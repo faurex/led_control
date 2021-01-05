@@ -1,0 +1,83 @@
+html {
+    background-color: black;
+    background: url('background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    padding: 1em 1em 0 1em;
+}
+
+.full {
+    width: 100%;
+}
+
+.left, .right {
+    width: 45%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear:after {
+    clear: both;
+}
+
+button {
+    border-radius: 0.6em;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    padding: 0.3em 0;
+    text-decoration: none;
+    margin: 0.1em 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+button.action1, button.action2 {
+    opacity: 0.86;
+    box-shadow: 4px 7px 5px -1px #3dc21b;
+    background-color: #44c767;
+    border: 12px solid #18ab29;
+    color: #ffffff;
+    text-shadow: 3px 4px 3px #2f6627;
+}
+
+button.stop1, button.stop2 {
+    opacity: 0.86;
+    box-shadow: 4px 7px 5px -1px #c2a11b;
+    background-color: #d6a756;
+    border: 12px solid #ab9819;
+    color: #ffffff;
+    text-shadow: 3px 4px 3px #665a28;
+}
+
+button.reset {
+    opacity: 0.86;
+    box-shadow: 4px 7px 5px -1px #c21b1b;
+    background-color: #d45757;
+    border: 12px solid #ab1919;
+    color: #ffffff;
+    text-shadow: 3px 4px 3px #662929;
+}
+
+button:active {
+    position: relative;
+    top: 0.08em;
+    left: 0.08em;
+}
